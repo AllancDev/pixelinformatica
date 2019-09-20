@@ -3514,6 +3514,7 @@ li {
 }
 
 @media only screen and (max-width: 567px) {
+  #phone { left: -32px !important; }
   .blog-section .content-text {
     display: block !important;
     padding-left: 0px !important;

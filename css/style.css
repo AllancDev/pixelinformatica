@@ -17,16 +17,19 @@ a[href="#top"]{
   z-index: 9999;
   padding:10px;
   position:fixed;
-  top: 90%;
+  top: 87%;
   right:40px;
-  background-color: #fff;
-  color: 
+  color: #004c78;
   display:none;
   font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
 }
 a[href="#top"]:hover{
   text-decoration:none;
   cursor: pointer;
+  background-color: rgba(255, 255, 255, 1);
+
 }
 
 .social-links {

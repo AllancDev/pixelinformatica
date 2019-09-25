@@ -8,6 +8,12 @@
 		}
 	}	
 
+	$('[href^="#solucao_form"]').click(function(event) {
+		event.preventDefault();
+		let target = this.getAttribute("href")
+		$('html, body').animate({ scrollTop: $(target).offset().top}, 1000);
+	  });
+
 	$('[href^="#form_contact"]').click(function(event) {
 		event.preventDefault();
 		let target = this.getAttribute("href")
